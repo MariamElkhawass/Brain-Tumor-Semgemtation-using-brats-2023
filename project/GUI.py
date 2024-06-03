@@ -47,7 +47,7 @@ class BrainTumorSegmentationModel:
 
         return output
 
-model_path = "D:\\project\\project\\runs\\20240530_191833__fold0_Unet_48_batch1_optimranger_ranger_lr0.0001-wd0.0_epochs200_deepsupFalse_fp16_warm0__normgroup_dropout0.0_warm_restartFalse\\model_best.pth.tar"
+model_path = "D:/project/project/runs/20240530_191833__fold0_Unet_48_batch1_optimranger_ranger_lr0.0001-wd0.0_epochs200_deepsupFalse_fp16_warm0__normgroup_dropout0.0_warm_restartFalse/model_best.pth.tar"
 segmentation_model = BrainTumorSegmentationModel(model_path)
 
 class Program:
