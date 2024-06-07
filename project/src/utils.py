@@ -406,7 +406,7 @@ def generate_segmentations(data_loader, model, writer, args):
         ed = np.logical_and(segs[2], np.logical_not(segs[1]))
 
         labelmap = np.zeros(segs[0].shape)
-        labelmap[et] = 4
+        labelmap[et] = 3
         labelmap[net] = 1
         labelmap[ed] = 2
 
